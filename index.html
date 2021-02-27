@@ -15,8 +15,8 @@
             <div class="logo"><img src="./img/img.jpg" alt="logo"></div>
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
         <div class="rightNav v-class-resp">
             <input type="text" name="search" id="search">
@@ -28,7 +28,7 @@
             <div class="line"></div>
         </div>
     </nav>
-    <section class="background firstSection">
+    <section class="background firstSection "id="home">
         <div class="box-main">
             <div class="firstHalf">
                 <p class="text-big" id="webname">FAMOUS DIGITAL STUDIO</p><br>
@@ -41,8 +41,7 @@
                     <p class="text-small">--- CREATING ALBUMS ---</p> <br>
                     <p class="text-small">--- PRINTED GIFT STUFF ---</p><br>
                     <div class="buttons">
-                        <!-- <button class="btn">Subscribe</button>
-                        <button class="btn">Watch video</button> -->
+                        <button class="btn">Watch video</button>
                         <a href="https://www.facebook.com/baqir397/" class="fa fa-facebook"></a>
                         <a href="https://www.instagram.com/baqir_rockzz/" class="fa fa-instagram"></a>
                     </div>
@@ -53,8 +52,9 @@
             </div>
         </section>
         
-        <section class="section section-left">
+        <section class="section section-left aboutbg" id="about">
             <div class="paras">
+                <h1 class="text-center">About Us</h1>
                 <p class="sectionTag text-big">The end of your search is here, Beacuse i am here...</p>
                 <p class="sectionSubTag text-small">Photography is the art, application, and practice of creating durable images by recording light, either
                  electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is 
@@ -67,7 +67,7 @@
             </div>
         </section>
         <hr>
-        <section class="section">
+        <section class="section aboutbg">
             <div class="paras">
                 <p class="sectionTag text-big">The artist creates, but the photographer reveals. Here’s how we’ve uncovered poise and purpose over the years…</p>
                 <p class="sectionSubTag text-small">Prepare to be click-ready anytime, The images I see coming from The Photo Studio are always impeccable. 
@@ -79,7 +79,7 @@
                 </div>
             </section>
             <hr>
-            <section class="section section-left">
+            <section class="section section-left aboutbg">
                 <div class="paras">
                     <p class="sectionTag text-big">We believe that high-end fashion photography shouldn’t be exclusive to high-end fashion models...</p>
                     <p class="sectionSubTag text-small">Sights set on the international runways? Let’s help you make your high-heeled mark with a stunning model 
@@ -91,18 +91,43 @@
                             <img src="https://source.unsplash.com/1600x900/?photography,wedding,parties,club" alt="famous studio">
                         </div>
                     </section>
+                    <h1 class="text-center">Portfolio</h1>
+                    <section class="section portfoliobg" id="portfolio">
+                        <div class="thumbnail">
+                            <img src="img2/pf1.jpg" alt="portfolio">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="img2/pf2.jpg" alt="portfolio">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="img2/pf3.jpg" alt="portfolio">
+                        </div>    
+                    </section>
+                    <hr>
+                    <section class="section portfoliobg" id="portfolio">
+                        <div class="thumbnail">
+                            <img src="img2/pf4.jpg" alt="portfolio">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="img2/pf5.jpg" alt="portfolio">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="img2/pf6.jpg" alt="portfolio">
+                        </div>
+                    </section>
                     <div class="backcover">
                         <section class="contact" id="contact">
                             <h1 class="text-center">Contact Us</h1>
-                            <div class="form">
+                            <div class="form" action="detail.php" method="post">
                                 <input class="form-input" type="text" name="name" id="name" placeholder="Your name">
                                 <input class="form-input" type="email" name="email" id="email" placeholder="Your email">
                                 <input class="form-input" type="text" name="phone" id="phone" placeholder="Mobile Number">
-                <input class="form-input" type="text" name="reason" id="reason" placeholder="What Type of Photography">
-                <textarea class="form-input" name="text" id="text" cols="60" rows="5" placeholder="Elaborate Your Concern"></textarea>
-                <button class="btn btn-dark">Submit</button>
+                                <input class="form-input" type="text" name="reason" id="reason" placeholder="What Type of Photography">
+                                <textarea class="form-input" name="text" id="text" cols="60" rows="5" placeholder="Elaborate Your Concern"></textarea>
+                                <button class="btn btn-dark">Submit</button>
             </div>
         </section>
+        
     </div>
     <footer>
         <p class="text-footer">
