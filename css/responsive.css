@@ -46,10 +46,16 @@
         width: 60%;
     }
     #webname{
-        font-size: 40px;
+        font-size: 35px;
     }
     .secondHalf img{
         width: 100%;
         margin: auto 0  30px;
+    }
+    #subHeading{
+        font-size: 24px;
+    }
+    #work{
+        font-size: 18px;
     }
 }
