@@ -13,7 +13,7 @@ html{
     align-items: center;
 }
 .logo img{
-    width: 26%;
+    width: 27%;
     border-radius: 50px;
     border: 2px solid rgb(175, 2, 2);
     padding: 1px;
@@ -44,9 +44,7 @@ html{
     font-size: 18px;
 }
 .nav-list li a:hover{
-    font-size: 17px;
-    color: rgb(111, 111, 250);
-    text-decoration-line: underline;
+    color: blue;
 }
 .rightNav{
     padding: 3px 20px;
@@ -142,8 +140,7 @@ html{
     font-family: 'Ubuntu', sans-serif;
 }
 .btn:hover{
-    text-decoration: underline;
-    color: rgb(121, 120, 120);
+    color: blue;
 }
 .btn-sm{
     padding: 6px 10px;
@@ -177,7 +174,6 @@ html{
     margin-top: 18px;
 }
 .contact{
-    /* background-color: rgb(227, 241, 252); */
     height: 550px;
 }
 .backcover{
@@ -192,27 +188,43 @@ html{
     font-size: 35px;
     text-decoration: underline;
 }
+.contact__input{
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+  }
+
 .form{
-    max-width: 60%;
+    max-width: 40%;
     margin: 15px auto;
 }
 .form-input{
-    margin: 15px 0px;
-    padding: 5px 3px;
+    margin: 10px 0px;
+    padding: 10px 10px;
     width: 100%;
-    font-size: 16px;
-    border: 3px solid black;
-    border-radius: 6px;
+    font-size: 13px;
+    border: 1.5px solid black;
+    border-radius: 0.6rem;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
 }
 .btn-dark{
-    color: black;
-    border: 2px solid black;
+    padding: 4px 18px;
+    margin: 6px 3px;
+    border-radius: 8px;
+    background: none;
+    border-width: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .btn-dark:hover{
-    color: black;
-    font-weight: bold;
+    color: blue;
     
 }
 .text-footer{
