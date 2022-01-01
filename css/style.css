@@ -186,7 +186,7 @@ html{
     padding: 20px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
-    text-decoration: underline;
+    text-shadow: 2px 2px black;
 }
 .contact__input{
     width: 100%;
